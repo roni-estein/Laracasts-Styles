@@ -77,6 +77,24 @@
   color: #fff !important;
 }
 
+.reply__body:before {
+  background: #222 !important;
+  border: none !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.reply__body {
+  background: #222 !important;
+  color: #999 !important;
+  padding: 30px !important;
+  border: none !important;
+  font-size: 16px !important;
+}
+
+.reply__avatar {
+  margin-right: 20px !important;
+}
 .reply__user-meta {
   color: #fff !important;
 }
@@ -102,5 +120,10 @@
 .btn-join {
   background: #556080 !important;
   color: #fff !important;
+}
+
+pre {
+  margin-left: -30px !important;
+  margin-right: -30px !important;
 }
 }
