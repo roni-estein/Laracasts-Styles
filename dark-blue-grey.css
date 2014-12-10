@@ -10,6 +10,14 @@
   color: #fff !important;
 }
 
+.navbar-link:hover i, .navbar .dropdown-toggle:hover i {
+  color: #fff !important;
+}
+
+.navbar-link, .navbar .dropdown-toggle {
+  font-weight: normal !important;
+}
+
 .secondary-nav {
   background-color: #414a5c !important;
   border-top: 1px solid #556076 !important;
@@ -45,6 +53,10 @@
 }
 
 .page {
+  background: #333 !important;
+}
+
+main {
   background: #333 !important;
 }
 
@@ -100,6 +112,10 @@
   margin-right: 20px !important;
 }
 .reply__user-meta {
+  color: #fff !important;
+}
+
+.reply__answer .reply__name {
   color: #fff !important;
 }
 
