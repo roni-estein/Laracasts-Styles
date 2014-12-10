@@ -72,6 +72,10 @@
   border-top: 1px solid #556080 !important;
 }
 
+.media--conversation__body h5 {
+  text-shadow: none !important;
+}
+
 .media--conversation__replies a,
 .media--conversation__replies .experience-points {
   color: #fff !important;
@@ -100,13 +104,12 @@
 }
 
 .updated h5::before {
-  content: "\2605";
-  padding-right: 5px;
+  content: "\2605" !important;
+  padding-right: 5px !important;
 }
 
 .updated h5 {
-  font-weight: bold !important;
-  color: #a7b3c2;
+  color: #fff !important;
 }
 
 .media--conversation__answered-icon {
