@@ -16,7 +16,7 @@
 }
 
 .secondary-nav .secondary-nav--left>li:first-child {
-  border-left: none !important; 
+  border-left: none !important;
 }
 
 .secondary-nav .secondary-nav--left>li {
@@ -74,6 +74,10 @@
 
 .media--conversation__replies a,
 .media--conversation__replies .experience-points {
+  color: #fff !important;
+}
+
+.reply__user-meta {
   color: #fff !important;
 }
 
