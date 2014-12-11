@@ -108,6 +108,10 @@ main {
   font-size: 16px !important;
 }
 
+.reply__footer {
+  border-top: 1px solid #444 !important;
+}
+
 .reply__avatar {
   margin-right: 20px !important;
 }
@@ -144,5 +148,11 @@ main {
 pre {
   margin-left: -30px !important;
   margin-right: -30px !important;
+}
+
+@media (max-width: 1200px) {
+  .reply__footer {
+    width: 659px !important;
+  }
 }
 }
