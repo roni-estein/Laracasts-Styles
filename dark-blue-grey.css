@@ -60,6 +60,12 @@ main {
   background: #333 !important;
 }
 
+.comments {
+  background: #fff !important;
+  -webkit-border-radius: 4px !important;
+  border-radius: 4px !important;
+}
+
 .lessons-nav {
   background: none !important;
 }
