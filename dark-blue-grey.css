@@ -121,12 +121,17 @@ main {
 .reply__avatar {
   margin-right: 20px !important;
 }
+
 .reply__user-meta {
   color: #fff !important;
 }
 
 .reply__answer .reply__name {
   color: #fff !important;
+}
+
+.reply__help-block {
+  color: #999 !important;
 }
 
 .updated h5::before {
@@ -149,6 +154,11 @@ main {
 .btn-join {
   background: #556080 !important;
   color: #fff !important;
+}
+
+#footer {
+  background: #111 !important;
+  border-top: 1px solid #555 !important;
 }
 
 pre {
