@@ -193,99 +193,99 @@ pre {
 }
 
 .banner{
-  background: #414A5C;
-  padding: 7em 0;
-  position: relative;
-  overflow: hidden;
-  border-top: 1px solid #333A49;
+  background: #414A5C !important;
+  padding: 7em 0 !important;
+  position: relative !important;
+  overflow: hidden !important;
+  border-top: 1px solid #333A49 !important;
 }
 
 .banner__series-learning-points {
-  border-left: 1px solid #B6BAC1;
-  padding-left: 40px;
-  margin-top: 65px;
-  position: relative;
-  left: 40px;
-  color: #fff;
+  border-left: 1px solid #B6BAC1 !important;
+  padding-left: 40px !important;
+  margin-top: 65px !important;
+  position: relative !important;
+  left: 40px !important;
+  color: #fff !important;
 }
 
 .jumbotron {
-  background: #3B3C41;
-  border-bottom: 1px solid #519294;
-  color: #fff;
-  padding: 62px 0;
-  margin-bottom: 70px;
+  background: #3B3C41 !important;
+  border-bottom: 1px solid #519294 !important;
+  color: #fff !important;
+  padding: 62px 0 !important;
+  margin-bottom: 70px !important;
 }
 
 .banner__series-learning-points h5 {
-  color: #A4B0BF;
-  font-size: 1.5em;
-  margin: 0 10px 0.5em 26px;
+  color: #A4B0BF !important;
+  font-size: 1.5em !important;
+  margin: 0 10px 0.5em 26px !important;
 }
 
 .reply__footer__like-list li {
-  margin-right: 7px;
-  background: #42435C;
-  position: relative;
-  top: 2px;
+  margin-right: 7px !important;
+  background: #42435C !important;
+  position: relative !important;
+  top: 2px !important;
 }
 
 a {
-    color: #C8C8C8;
+    color: #C8C8C8 !important;
 }
 
 .reply__body p a {
-  color: #C8C8C8;
-  font-weight: bold;
+  color: #C8C8C8 !important;
+  font-weight: bold !important;
 }
 
 .btn-primary {
-  background: #556080;
-  border-color: #414A5C;
+  background: #556080 !important;
+  border-color: #414A5C !important;
 }
 
 ::selection {
-  background: #556080;
-  color: #fff;
+  background: #556080 !important;
+  color: #fff !important;
 }
 
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
-  z-index: 2;
-  color: #fff;
-  background-color: #5E6161;
-  border-color: #565656;
-  cursor: default;
+  z-index: 2 !important;
+  color: #fff !important;
+  background-color: #5E6161 !important;
+  border-color: #565656 !important;
+  cursor: default !important;
 }
 
 .pagination>li>a, .pagination>li>span {
-  position: relative;
-  float: left;
-  padding: 6px 12px;
-  line-height: 1.428571429;
-  text-decoration: none;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  margin-left: -1px;
-  color: #5E6161;
+  position: relative !important;
+  float: left !important;
+  padding: 6px 12px !important;
+  line-height: 1.428571429 !important;
+  text-decoration: none !important;
+  background-color: #fff !important;
+  border: 1px solid #ddd !important;
+  margin-left: -1px !important;
+  color: #5E6161 !important;
 }
 
 .episode-outline .episode-title .label-new {
-  margin-left: 8px;
-  background: #3F5884;
+  margin-left: 8px !important;
+  background: #3F5884 !important;
 }
 
 button.navbar-toggle {
-  background: #556080;
+  background: #556080 !important;
 }
 
 .modal-header {
-  background: #556080;
-  color: #fff;
+  background: #556080 !important;
+  color: #fff !important;
 }
 
 .alert-info {
-  background: #556080;
-  color: #fff;
+  background: #556080 !important;
+  color: #fff !important;
 }
 
 @media (max-width: 1200px) {
