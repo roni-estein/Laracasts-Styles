@@ -1,4 +1,5 @@
-.navbar {
+@-moz-document domain("laracasts.com") {
+  .navbar {
   background-color: #1a2430 !important;
   border-top: 1px solid #556076 !important;
   padding: 20px 0 !important;
@@ -291,4 +292,5 @@ button.navbar-toggle {
   .reply__footer {
     width: 659px !important;
   }
+}
 }
