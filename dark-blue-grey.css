@@ -305,22 +305,40 @@ button.navbar-toggle {
 
 .lesson-title-meta strong,
 .wrap--video a[href],
-.reply__name a{
+.reply__name a,
+.section-heading
+{
 	color:#c8c8c8 !important;
 }
 
+.profile-forum-participation a{ color:#C3D7FA !important;}
+.profile-forum-participation .media-heading{
+  	color:#E0CACA;
+}
 
-
-.comments a[href]
-{
-	color:#414A5C !important;
-} 
-
+.media-body{
+    color:#E0CACA;
+}
+    
+.media--conversation__meta .label{
+  background-color:#40495B !important;
+  border: 1px solid #545F7F !important;
+  
+}
+.media--conversation__meta .label a{color: #E8E8E8 !important;}
 
 .navbar-link:hover,
 .navbar-link:focus{
 	color:#fff !important;
 }
+
+      
+/*KEEP AT BOTTOM*/      
+.comments a[href]
+{
+	color:#414A5C !important;
+} 
+
 
 @media (max-width: 1200px) {
   .reply__footer {
