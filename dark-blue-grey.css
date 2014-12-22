@@ -274,18 +274,52 @@ a {
   background: #3F5884 !important;
 }
 
+/*
+I REMOVED IT BUT I'M NOT SURE WHEN, SO LEAVEING IT AS A COMMENT
 button.navbar-toggle {
   background: #556080 !important;
 }
+*/
 
 .modal-header {
   background: #556080 !important;
+  border-color: #414A5C !important;
   color: #fff !important;
 }
 
 .alert-info {
   background: #556080 !important;
+  border-color: #414A5C !important;
   color: #fff !important;
+}
+
+.ProductsHeading, h3 a {
+  color: #C7C3C3 !important;
+}
+
+.sidebar-nav li a:hover, .episode-outline .episode-wrap:hover td, .episode-outline .episode-wrap.active td{
+  background-color:#414A5C !important;
+  color: #EEE !important;
+  cursor: pointer !important;
+}
+
+.lesson-title-meta strong,
+.wrap--video a[href],
+.reply__name a{
+	color:#c8c8c8 !important;
+}
+
+
+
+.comments a[href]
+{
+	color:#414A5C !important;
+} 
+
+
+.navbar-link:hover,
+.navbar-link:focus{
+	color:#fff !important;
 }
 
 @media (max-width: 1200px) {
