@@ -274,12 +274,9 @@ a {
   background: #3F5884 !important;
 }
 
-/*
-I REMOVED IT BUT I'M NOT SURE WHEN, SO LEAVEING IT AS A COMMENT
 button.navbar-toggle {
   background: #556080 !important;
 }
-*/
 
 .modal-header {
   background: #556080 !important;
@@ -303,19 +300,24 @@ button.navbar-toggle {
   cursor: pointer !important;
 }
 
+.sidebar-nav__item-count{color: #EEE !important;}
 
 .lesson-title-meta strong,
 .wrap--video a[href],
 .reply__name a,
 .section-heading
 {
-	color:#c8c8c8 !important;
+  color:#c8c8c8 !important;
 }
 
-.profile-forum-participation a{ color:#C3D7FA !important;}
-.profile-forum-participation .media-heading{
-  	color:#E0CACA;
+
+.profile-forum-participation a[href]{ color:#C3D7FA !important;}
+.profile-forum-participation .media-heading
+{
+    color:#E0CACA;
 }
+
+.participation__name a[href]{ color:#CCC !important;}
 
 .media-body{
     color:#E0CACA;
@@ -329,21 +331,33 @@ button.navbar-toggle {
 .media--conversation__meta .label a{color: #E8E8E8 !important;}
 
 .navbar-link:hover,
-.navbar-link:focus{
-	color:#fff !important;
+.navbar-link:focus
+.navbar-nav .active>a,
+.navbar-nav .active{
+  color:#fff !important;
 }
+    
+.lesson-block-status {background:#444B55 !important; color:#eee !important;}      
 
+.active a, .jumbotron__heading{color:#fff !important;}    
+
+.media-body p a{
+  color:#CCC;
+}
       
 /*KEEP AT BOTTOM*/      
 .comments a[href]
-{
-	color:#414A5C !important;
-} 
 
+{
+  color:#414A5C !important;
+} 
+#question-stats span, #question-stats form, .question-notification-form span, .question-notification-form form{
+  background-color: #302e2e !important;
+
+}
 
 @media (max-width: 1200px) {
   .reply__footer {
     width: 659px !important;
   }
-}
 }
