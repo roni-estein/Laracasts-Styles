@@ -354,6 +354,10 @@ button.navbar-toggle {
 
 }
 
+.participation__body__buttons i {
+  color: #CCC !important;
+}
+
 @media (max-width: 1200px) {
   .reply__footer {
     width: 659px !important;
