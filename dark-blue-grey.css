@@ -240,10 +240,13 @@ a {
 }
 
 .btn-primary,
-.btn-primary:hover
+.btn-primary:hover,
+.jumbotron .btn-primary,
+.jumbotron .btn-primary:hover
 {
   background-color: #556080 !important;
   border-color: #414A5C !important;
+  color: #EEE !important;
 }
 
 
